@@ -8,7 +8,7 @@ import { PickupCallsPageRoutingModule } from './pickup-calls-routing.module';
 
 import { PickupCallsPage } from './pickup-calls.page';
 import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pickup-call-card.component';
-
+import { RadarSearchComponent } from 'src/app/components/radar-search/radar-search.component';
 
 @NgModule({
   imports: [
@@ -20,6 +20,7 @@ import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pic
   declarations: [
     PickupCallsPage,
     PickupCallCardComponent,
+    RadarSearchComponent
   ]
 })
 export class PickupCallsPageModule {
